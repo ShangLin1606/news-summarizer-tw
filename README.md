@@ -4,7 +4,7 @@
 
 ---
 
-##  資料來源（Dataset）
+##  資料來源
 
 本專案預設使用 **Kaggle: *Categorised News Dataset from Fudan University*** 作為示範語料來源。  
 此資料集整理自復旦大學的中文新聞分類語料，涵蓋多個主題分類，適合做文本處理、摘要與分類等任務。
@@ -46,8 +46,6 @@ news-summarizer-tw/
 ├─ requirements.txt
 └─ README.md
 ```
-
-> 註：檔名與既有腳本保留，方便讀者直接對照與延伸。
 
 ---
 
@@ -95,8 +93,6 @@ python stage07_dataset_preparation.py --src data/03_clean --dst data/07_dataset 
 # 08. 模型訓練（可依需求替換演算法/框架）
 python stage08_model_training.py --data data/07_dataset --out out/models/baseline
 ```
-
-> 備註：若原始腳本尚未完全 argparse 化，可先依預設路徑放置資料；或在腳本內調整 I/O 參數。
 
 ---
 
@@ -147,7 +143,7 @@ out/
 
 ##  授權（License）
 
-本專案採用 **MIT License**（見本庫 `LICENSE` 檔）。  
+**MIT**
 
 
 ---
